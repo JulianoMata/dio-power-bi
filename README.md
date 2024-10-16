@@ -39,7 +39,7 @@ O Git é um conceito essencial no mercado de trabalho atualmente, por isso sempr
 [Expert DIO - julianazanelatto](https://github.com/julianazanelatto/power_bi_analyst)
 
 
-# Descrição do desafio II: 
+# Descrição do desafio 02: 
 
 Você irá criar um relatório mais elaborado com base na `sample financials do Power BI`. 
 
