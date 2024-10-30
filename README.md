@@ -150,6 +150,8 @@ Ex: data de oferta das disciplinas, data de oferta dos cursos, entre outros. O f
 
 Utilizaremos a tabela única de Financial Sample para criar as tabelas dimensão e fato do nosso modelo baseado em `star schema`.
 
+### *Objetivo:*
+
 O processo consiste na criação das tabelas com `base na tabela original`. A partir da cópia serão selecionadas as colunas que irão compor a visão da nova tabela. Sendo assim, a partir da tabela principal serão criadas as tabelas:
 
 `Financials_origem (modo oculto – backup)` – Tabela original, `carga desabilitada` para não ser utilizada no modelo
@@ -178,3 +180,15 @@ Você pode utilizar os seguintes pontos como base:
 · Escreva no readme o processo de construção do seu diagrama
 
 · Fale sobre as etapas as funcionalidades e funções DAX utilizadas neste projeto
+
+# Descrição do desafio 06:
+
+Utilizaremos a tabela única de Financial Sample para criar as tabelas dimensão e fato do nosso modelo baseado em star schema.
+
+### *Objetivo:*
+
+O processo consiste na criação das tabelas com base na tabela original. A partir da cópia serão selecionadas as colunas que irão compor a visão da nova tabela. Sendo assim, a partir da tabela principal serão criadas as tabelas:
+
+Financials_origem (modo oculto – backup)... Tabela original, carga desabilitada para não ser utilizada no modelo
+
+`A principal semelhança com o projeto anterior é significativa, diferenciando-se apenas pela criação de uma tabela dedicada para organizar melhor as funções DAX usadas na criação de medidas.`
